@@ -1,0 +1,26 @@
+.NavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.NavListItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link {
+  display: inline-block;
+  margin: 0;
+  padding: 15px 0 15px;
+  text-decoration: none;
+  color: #2a363b;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.activeLink {
+  composes: link;
+  color: #30d5c8;
+}

@@ -1,0 +1,60 @@
+.ContactList {
+  margin: 0 auto;
+  width: 400px;
+  list-style: none;
+  font-style: normal;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.ContactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}
+
+.Contact {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+.ContactName {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  min-width: 60px;
+  background-color: #30d5c8;
+  color: #ffffff;
+  font-weight: 500;
+
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #30d5c8;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}

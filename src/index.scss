@@ -1,0 +1,29 @@
+body {
+  // line-height: 1.5;
+
+  color: #fff;
+  background-color: #af85d2;
+  font-family: 'Kalam', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

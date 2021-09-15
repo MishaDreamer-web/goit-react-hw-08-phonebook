@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": "Misha Sobachko",
+      "number": "063-722-16-00",
+      "id": "OMBQlnL"
+    },
+    {
+      "name": "Vasiliy Ivanov",
+      "number": "555-55-55",
+      "id": "TR6zqJT"
+    },
+    {
+      "name": "Semen Semenovich",
+      "number": "777-77-77",
+      "id": "Md6QDfo"
+    }
+  ]
+}
