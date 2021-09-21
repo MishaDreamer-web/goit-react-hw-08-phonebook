@@ -6,12 +6,12 @@ import styles from './Filter.module.scss';
 
 const Filter = () => {
   const value = useSelector(contactsSelectors.getFilter);
-  const contacts = useSelector(contactsSelectors.getVisibleContactsSortByName);
+  // const contacts = useSelector(contactsSelectors.getVisibleContactsSortByName);
   const dispatch = useDispatch();
 
   return (
     <>
-      {contacts.length > 0 && (
+      {
         <label className={styles.Label}>
           <span className={styles.LabelText}>Find contacts by name</span>
           <input
@@ -30,7 +30,7 @@ const Filter = () => {
             className={styles.Input}
           />
         </label>
-      )}
+      }
     </>
   );
 };
